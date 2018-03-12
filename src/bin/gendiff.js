@@ -2,7 +2,7 @@
 import commander from 'commander';
 
 commander
-  .version('0.1.5')
+  .version('0.0.6')
   .description('Compares two configuration files and shows a difference.')
   .arguments('<firstConfig> <secondConfig>')
   .option('-f, --format [type]', 'Output format')
