@@ -1,6 +1,6 @@
 {
   "name": "second-project-black",
-  "version": "0.0.5",
+  "version": "0.1.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {
-    "commander": "^2.15.0"
+    "commander": "^2.15.0",
+    "lodash": "^4.17.5"
   }
 }

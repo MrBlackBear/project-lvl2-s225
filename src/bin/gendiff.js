@@ -1,10 +1,9 @@
 #!/usr/bin/env node
-const commander = require('commander');
+import commander from 'commander';
 
 commander
+  .version('0.1.5')
   .description('Compares two configuration files and shows a difference.')
   .arguments('<firstConfig> <secondConfig>')
-  .option('-V, --version', 'output the version number')
-  .option('-f, --format [type]', 'Output format');
-
-commander.parse(process.argv);
+  .option('-f, --format [type]', 'Output format')
+  .parse(process.argv);
