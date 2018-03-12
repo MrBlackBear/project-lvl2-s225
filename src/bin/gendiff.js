@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log("11"); 
+console.log('11');
